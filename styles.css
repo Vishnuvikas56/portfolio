@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right,  rgb(255, 252, 195) 50%, rgb(205, 238, 250) 50%);
+
+  }
+  .triangle-container {
+    background: linear-gradient(to bottom right,  rgb(255, 252, 195) 50%, rgb(205, 238, 250) 50%);
+    position: relative;
+    width: 100%;
+    height: 100vh; /* You can adjust this value to fit your needs */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .triangle {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* You can adjust this value to fit your needs */
+    background: linear-gradient(to bottom right,  rgb(205,238,250) 50%, rgb(255, 252, 195) 50%);
+  }
+  .middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .intro{
+    height:26.3333%;
+    width: 100%;
+  }
+.vish{
+    font-weight: 200;
+    font-size: 200%;
+    color: rgb(146, 210, 231);
+    margin-bottom: 0px;
+    margin-left: 10%;
+    padding-top: 2%;
+}
+.programmer{
+    font-size: 600%;
+    font-weight: bolder;
+    color: rgb(146, 210, 231);
+    margin-top: 1%;
+    margin-left: 10%;
+}
+.header{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.page-button{
+    margin-top: 1px;
+    height: 40px;
+    width: 7%;
+    background: transparent;
+    margin-left: 20px;
+    border: none;
+    font-size: 150%;
+    font-weight: 600;
+    color: rgb(158, 216, 11);
+    border: none;
+}
+.footer{
+    height:25.67%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+.footer-text{
+    color:#379df7;
+    font-weight: 800;
+    font-size: 225%;
+    margin-left: 45%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.button-container{
+  width: 100%;
+}
+.home{
+  width: 100%;
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  width: 100%;
+  background: linear-gradient(135deg, rgb(250, 246, 167), rgb(144, 219, 246));
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  background-color: #f0f0f0;
+}
+.about-content{
+  width: 75%;
+  margin: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 125%;
+  font-weight: 400;
+
+}
+.skills {
+  width: 100%;
+  background: linear-gradient(135deg, rgb(250, 246, 167), rgb(144, 219, 246));
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skill-content{
+  width: 85%;
+  margin: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 130%;
+  font-weight: 100;
+}
+.projects {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgb(250, 246, 167), rgb(144, 219, 246));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project-content{
+  width: 85%;
+  margin: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 115%;
+  font-weight: 100;
+}
+   .contact-content{
+  width: fit-content;
+  margin: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 125%;
+  font-weight: 100;
+
+}
+.contact {
+  width: 100%;
+  background: linear-gradient(135deg, rgb(250, 246, 167), rgb(144, 219, 246));
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.f1{
+    margin-top: 0.5%;font-size: 400%;
+}
+.abo{
+    width: 10%;font-size: 250%;margin-bottom: 2.5%;
+}
+.auc{
+  height: 35%;
+  width: 25%;
+  margin-right: 2.5%;
+  margin-left: 5%;
+  margin-top: 2.5%;
+
+}
+.aboutinfo{
+  width: 75%;
+}
+@media(min-height: 400px) and (max-height: 700px){
+    .vish{
+        font-size: 150%;
+    }
+    .programmer{
+        font-size: 500%;
+    }
+    .pic{
+        height:120%;
+    }
+    .footer-text{
+        font-size: 200%;
+    }
+    .f1{
+        font-size: 300%;
+    }
+    .middle{
+        height: 40%;
+    }
+    .abo{
+        width: 75%;
+        margin-top: 10%;
+        margin-left: 70%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 200%;
+        font-weight: 400;
+    }
+    body{
+    background: linear-gradient(135deg, rgb(250, 246, 167), rgb(144, 219, 246));
+    }
+    .ski{
+    
+            width: 75%;
+            margin-top: 8%;
+            margin-left: 5%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 200%;
+            font-weight: 400;
+    
+    }
+    .ski1{
+        padding-bottom: 1%;
+    }
+    .pro{
+        width: 75%;
+        margin-top: 15%;
+        margin-left: 5%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 200%;
+        font-weight: 400;
+    }
+
+}
